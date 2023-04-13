@@ -88,21 +88,60 @@ body{
     border-radius: 50%;
     height:30px;
     width:30px;
+    padding-left: 3%;
 }
 
 /*Stilizimet e seksionit 1*/
 
-/* .slide{
-    max-height: 100vh;
-} */
+.main-title{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.main-title h1{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 3rem;
+}
+
+.our-sale{
+    border: 4px solid white;
+}
+
+.main-title h3{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+.up-to{
+    border: 4px solid white;
+}
+
+.main-title2{
+    position: absolute;
+    left: 23%;
+    top: 10%;
+}
+
+.main-title2 h1{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+}
+
+.main-title2 h3{
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 1rem;
+}
 
 .display-left{
     height: 30px;
     width: 20px;
     border-radius: 50%;
     border: 1px solid rgba(14, 11, 11, 0.679);
-    /* display: flex;
-    justify-content: baseline; */
+    margin-top: 50%;
 }
 
 .display-right{
@@ -110,14 +149,15 @@ body{
     width: 20px;
     border-radius: 50%;
     border: 1px solid rgba(14, 11, 11, 0.679);
-    /* display: flex;
-    justify-content: baseline; */
+    margin-top: 50%;
 }
 
 .shipping{
     display: flex;
     align-items: center;
+    border: 1px solid  rgba(215, 93, 93, 0.866);
     background-color: rgba(215, 93, 93, 0.866);
+    
 }
 
 .shipping h4{
@@ -138,7 +178,9 @@ body{
 .giveaway{
     display: flex;
     align-items: center;
+    border: 1px solid rgba(167, 131, 87, 0.486) ;
     background-color: rgba(167, 131, 87, 0.486);
+   
 }
 
 .giveaway h4{
@@ -159,6 +201,7 @@ body{
 .sale{
     display: flex;
     align-items: center;
+    border: 1px solid  rgba(66, 66, 179, 0.374);
     background-color: rgba(66, 66, 179, 0.374);
 }
 
@@ -245,6 +288,10 @@ body{
   text-align: center;
   display: inline-block;
   font-size: 11px;
+}
+
+.ikonat{
+    padding: 5px;
 }
 
 .add-cart1{

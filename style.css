@@ -503,6 +503,102 @@ body{
     justify-content: center;
 }
 
+.photo-info{
+    border: 2px solid rgba(215, 93, 93, 0.866);
+    margin: 3%;
+}
+
+.paragraf1{
+    margin-left: -66% ;
+   
+}
+
+.paragraf1 h4{
+    font-family: Montserrat;
+    font-size: 0.9rem;
+}
+
+.paragraf1 h5{
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/*Stilizimet e footerit*/
+
+footer{
+    background-color: #e7e7e77b;
+}
+
+.my-footer{
+    margin-top: 3%;
+}
+
+.the-footer-info{
+    margin-top: 2%;
+}
+
+.the-footer-info h4{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    text-decoration-line: underline;
+}
+
+.the-footer-info h5{
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    color: #747171;
+}
+
+.rights{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rights h5{
+    font-family: Montserrat;
+    font-size: 0.7rem;
+    margin-bottom: 2%;
+}
+
+.pay{
+    height: 20px;
+    width: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

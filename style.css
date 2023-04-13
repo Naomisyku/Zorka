@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+}
+
+/*Stilizimet e headerit*/
+
+.guest h4{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+}
+
+.opsions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mybtn{
+    background-color: transparent !important;
+    border-color:white !important;
+    font-family: Montserrat !important;
+    font-size: 0.8rem !important;
+    color: black !important;
+}
+
+.dropdown-item{
+    font-family: Montserrat !important;
+    font-size: 0.8rem !important;
+}
+
+.social{
+    display: flex;
+}
+
+.social li{
+    list-style: none;
+}
+
+.social li a{
+    color: rgba(0, 0, 0, 0.57);
+    padding: 5px;
+}
+
+.twitter{
+    color: black;
+}
+
+.first-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: Merriweather;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.nav-link{
+    color: black;
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+.shopping-cart{
+    display: flex;
+    justify-content: right;
+}
+
+.shopping-cart li{
+    list-style: none;
+    
+}
+
+.shopping-cart li a ion-icon{
+    color: rgba(0, 0, 0, 0.57);
+    width: 33px;
+    height: 70px;
+}
+
+.shopping-cart h6{
+    border: 2px solid rgb(238, 28, 28);
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+}
+
+/*Stilizimet e seksionit 1*/
+
+/* .slide{
+    max-height: 100vh;
+} */
+
+.display-left{
+    height: 30px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid rgba(14, 11, 11, 0.679);
+    /* display: flex;
+    justify-content: baseline; */
+}
+
+.display-right{
+    height: 30px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid rgba(14, 11, 11, 0.679);
+    /* display: flex;
+    justify-content: baseline; */
+}
+
+.shipping{
+    display: flex;
+    align-items: center;
+    background-color: rgba(215, 93, 93, 0.866);
+}
+
+.shipping h4{
+    font-family: Montserrat;
+    font-size: 1rem;
+   color: #fff;
+}
+
+.free{
+    position: relative;
+}
+
+.cart{
+    position: absolute;
+    right: 8px;
+}
+
+.giveaway{
+    display: flex;
+    align-items: center;
+    background-color: rgba(167, 131, 87, 0.486);
+}
+
+.giveaway h4{
+    font-family: Montserrat;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.give{
+    position: relative;
+}
+
+.gift{
+    position: absolute;
+    right: 8px;
+}
+
+.sale{
+    display: flex;
+    align-items: center;
+    background-color: rgba(66, 66, 179, 0.374);
+}
+
+.sale h4{
+    font-family: Montserrat;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.up{
+   position: relative;
+}
+
+.diamond{
+    position: absolute;
+    right: 8px;
+}
+
+.three-items{
+    padding: 12px;
+}
+
+/*Stilizimet e seksionit 2*/
+
+.trend-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trend-title h3{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+.trend-title h5{
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* .description-price{
+    display: flex;
+    flex-direction: column;
+} */
+
+.description-price h5{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+}
+
+.description-price h6{
+    font-family: Montserrat;
+    font-size: 0.6rem;
+}
+
+.btn-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-icons{
+    list-style: none;
+    
+    color: black;
+}
+
+.btn-icons li a {
+    color: #747171;
+    flex-direction: column;
+    border: 2px solid #e7e7e7;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+
+.add-cart{
+  background-color: rgba(215, 93, 93, 0.866);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 11px;
+}
+
+.add-cart1{
+    background-color: white;
+                               /* border-color: #e7e7e7; */
+    border: 2px solid #e7e7e7;
+    border-radius: 50px;
+    color: black;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.load{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.btn-load1{
+    border-radius: 50px;
+    background-color: rgba(215, 93, 93, 0.866) ;
+    border: none;
+    color: #fff;
+    padding: 10px 45px;
+}
+
+/*Stilizimet e seksionit 3*/
+
+.part-one{
+    background-image: url(images/Image13.png);
+    min-height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-new{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+
+.title-new h2{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    border: 5px solid white;
+}
+
+.title-new h6{
+    font-family: Merriweather;
+    font-style: italic;
+    color: #fff;
+}
+
+/* .text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+} */
+
+.info1 h4{
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+.info1 h5{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    color: rgba(215, 93, 93, 0.866) ;
+}
+
+.info2 h4{
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+.info2 h5{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    color: rgba(215, 93, 93, 0.866) ;
+}
+
+.info3 h4{
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+.info3 h5{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    color: rgba(215, 93, 93, 0.866) ;
+}
+
+.info4 h4{
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+.info4 h5{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    color: rgba(215, 93, 93, 0.866) ;
+}
+
+.three-icons4{
+    list-style: none;
+    display: flex;  
+    justify-content: space-around;
+}
+
+.three-icons4 li a{
+    color: #747171;
+   
+}
+
+.new{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    text-decoration-line: underline;
+}
+
+.featured{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    text-decoration-line: underline;
+}
+
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #74717116;
+}
+
+.testimonial h4{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    text-decoration-line: underline;
+}
+
+.testimonial h5{
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+.testimonial h6{
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.anna{
+    border-radius: 50%;
+}
+
+/*Stilizimet e seksionit 4*/
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction h3{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+.introduction h5{
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.all-info{
+    margin-top: 2%;
+}
+
+.paragraf{
+    margin-left: -66% ;
+}
+
+.paragraf h4{
+    font-family: Montserrat;
+    font-size: 0.9rem;
+}
+
+.paragraf p{
+    font-size: 0.7rem;
+}
+
+/*Stilizimet e seksionit 5*/
+
+.get-news{
+    min-height: 50vh;
+    background-image: url(images/Image20.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.button-text h4{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.button-text h5{
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.post{
+    margin-bottom: 3%;
+}
+
+.btn-sub1{
+    border: none;
+    border-radius: 50px;
+    background-color:white;
+    color: #726c6c;
+    font-size: 13px;
+    padding: 1px 7px;
+}
+
+.btn-sub2{
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(215, 93, 93, 0.866) ;
+    color: #fff;
+    font-size: 13px;
+    padding: 1px 9px;
+}
+
+.brand-logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Montserrat:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Zorka</title>
+</head>
+<body>
+
+ <!--Si fillim krijojme headerin-->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 guest"> 
+          <h4>WELCOME GUEST! LOG IN OR REGISTER</h4>
+        </div>
+        
+        <div class="col-md-4 offset-md-4 opsions">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle mybtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MY SETTINGS
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle mybtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              LANGUAGE EN
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Italian</a></li>
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Spanish</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle mybtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CURRENCY
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+              <li><a class="dropdown-item" href="#">GBP</a></li>
+              <li><a class="dropdown-item" href="#">USD</a></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  
+  
+  <nav>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 col-md-4">
+         <ul class="social">
+          <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-vk"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-behance"></ion-icon></a></li>
+         </ul>
+        </div>
+        <div class="col-6 col-md-4 first-con">
+          <h1 class="title">Zorka</h1>
+          <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PORTOFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">PAGES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"href=""><ion-icon name="search-outline"></ion-icon></a>
+                      </li>
+                </div>
+          </div>
+
+        <div class="col-6 col-md-4">
+          <div class="shopping-cart">
+             <li><a href=""><ion-icon name="cart-outline"></ion-icon></a></li>
+             <h6>1</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+ </header>
+
+ <!--Seksioni 1 Slide images-->
+
+<section class="slide">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-6 left-col" style="display: flex;">
+              <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <img class="mySlides" src="images/Image1.png" alt="">
+              <img class="mySlides" src="images/Image2.png" alt="">
+          </div>
+          <div class="col-6 right-col" style="display: flex;">
+              <img class="mySlide" src="images/Image3.png" alt="">
+              <img class="mySlide" src="images/Image4.png" alt="">
+              <button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
+          </div>
+        </div>
+  </div>
+
+  <div class="container three-items">
+    <div class="row align-items-end">
+      <div class="col-4 shipping">
+        <h4 class="free">FREE SHIPPING WORLDWIDE</h4>
+        <img class="cart" src="images/Icon4.png" alt="">
+      </div>
+      <div class="col-4 giveaway">
+        <h4 class="give">GIVEAWAY EVERYWEEK</h4>
+        <img class="gift"  src="images/Icon3.png" alt="">
+      </div>
+      <div class="col-4 sale">
+        <h4 class="up">SALE UP TO 70% OFF ON TUESDAY</h4>
+        <img class="diamond" src="images/Icon2.png" alt="">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--Seksioni i 2-->
+
+<section class="trend">
+   <div class="trend-title">
+    <h3>TRENDY CLOTHING</h3>
+    <h5>Trending</h5>
+   </div>
+   <div class="container">
+    <div class="row align-items-start">
+
+      <div class="col-3">
+        <img src="images/Image5.png" alt="">
+        <div class="description-price">
+          <h5>HANDMADE FLARED JACKET</h5>
+          <h6>189.99 USD</h6>
+        </div>
+        <div class="btn-icons">
+          <button class="add-cart">ADD TO CART</button>
+            <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+        </div>    
+      </div>
+
+      <div class="col-3">
+        <img src="images/Image6.png" alt="">
+        <div class="description-price">
+          <h5>COAT WITH WOOL WRAPAROUND</h5>
+          <h6>100.99 USD</h6>
+        </div>
+        <div class="btn-icons">
+          <button class="add-cart1">ADD TO CART</button>
+            <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+        </div> 
+      </div>
+
+      <div class="col-3">
+        <img src="images/Image7.png" alt="">
+        <div class="description-price">
+          <h5>UTILITY JACKET</h5>
+          <h6>189.99 USD</h6>
+        </div>
+        <div class="btn-icons">
+          <button class="add-cart1">ADD TO CART</button>
+            <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+        </div> 
+      </div>
+
+      <div class="col-3">
+        <img src="images/Image8.png" alt="">
+        <div class="description-price">
+          <h5>ANIMAL PRINT COAT</h5>
+          <h6>189.99 USD</h6>
+        </div>
+        <div class="btn-icons">
+          <button class="add-cart1">ADD TO CART</button>
+            <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+        </div> 
+      </div>
+    </div>
+   </div>
+
+   <div class="container">
+    <div class="row align-items-start">
+
+      <div class="col-3">
+        <img src="images/Image9.png" alt="">
+        <div class="description-price">
+          <h5>HOODED BOMBER JACKET</h5>
+          <h6>189.99 USD</h6>
+        </div>
+        <div class="btn-icons">
+          <button class="add-cart1">ADD TO CART</button>
+            <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+        </div> 
+      </div>
+
+      <div class="col-3">
+        <img src="images/Image10.png" alt="">
+        <div class="description-price">
+          <h5>STRUCTURED COLLARLESS COAT</h5>
+          <h6>189.99 USD</h6>
+        </div>
+        <div class="btn-icons">
+          <button class="add-cart1">ADD TO CART</button>
+            <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+        </div> 
+      </div>
+
+      <div class="col-3">
+        <img src="images/Image11.png" alt="">
+        <div class="description-price">
+          <h5>HOUNDSTOOTH WOOL COAT</h5>
+          <h6>189.99 USD</h6>
+        </div>
+        <div class="btn-icons">
+          <button class="add-cart1">ADD TO CART</button>
+            <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+        </div> 
+      </div>
+
+      <div class="col-3">
+        <img src="images/Image12.png" alt="">
+        <div class="description-price">
+          <h5>COAT WITH WRAPAROUND COLLAR</h5>
+          <h6>189.99 USD</h6>
+        </div>
+        <div class="btn-icons">
+          <button class="add-cart1">ADD TO CART</button>
+            <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+        </div> 
+      </div>
+    </div>
+   </div>
+   <div class="load"><button class="btn-load1">LOAD MORE</button></div>
+   
+</section>
+
+<!--Seksioni i 3-->
+<section>
+
+  <div class="part-one">   <!--backgroung plus titulli-->
+    <div class="title-new">    
+      <h2>NEW</h2>          
+      <h2>COLLECTION</h2>
+      <h6>Zorka Spring/ Summer Project</h6>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="new mb-4">NEW-IN</h4>
+            <div class="row">
+              <div class="col">
+                 <img src="images/Image15.png" alt="">
+              </div>
+              <div class="col info1">
+                <h4>PARKA WITH FAUX FUR HOOD</h4>
+                <h5>189.99</h5>
+                <ul class="three-icons4">
+                  <li><a href=""><ion-icon name="cart-outline"></ion-icon></a></li>
+                  <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+                  <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col">
+                 <img src="images/Image14.png" alt="">
+              </div>
+              <div class="col info2">
+                <h4>BOMBER JACKET</h4>
+                <h5>189.99</h5>
+                <ul class="three-icons4">
+                  <li><a href=""><ion-icon name="cart-outline"></ion-icon></a></li>
+                  <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+                  <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="new mb-4">FEATURED</h4>
+
+            <div class="row">
+              <div class="col">
+                 <img src="images/Image16.png" alt="">
+              </div>
+              <div class="col info3">
+                <h4>HANDMADE FLARED JACKET </h4>
+                <h5>189.99</h5>
+                <ul class="three-icons4">
+                  <li><a href=""><ion-icon name="cart-outline"></ion-icon></a></li>
+                  <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+                  <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                 <img src="images/Image17.png" alt="">
+              </div>
+              <div class="col info4">
+                <h4>SHORT KNIT COAT WITH BELT</h4>
+                <h5>189.99</h5>
+                <ul class="three-icons4">
+                  <li><a href=""><ion-icon name="cart-outline"></ion-icon></a></li>
+                  <li><a href=""><ion-icon name="repeat-outline"></ion-icon></a></li>
+                  <li><a href=""><ion-icon name="heart-outline"></ion-icon></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="col testimonial">
+          <h4 class="testi">TESTIMONIAL</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolores beatae quo perferendis. Maiores fugit maxime quae molestiae at, unde molestias expedita, dicta iusto qui ex? Rem nesciunt blanditiis corrupti.</p>
+            <img class="anna" src="images/Image19.png" alt="">
+            <h5>ANNA PANDORA</h5>
+            <h6>Stylist</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+<!--Seksioni i 4-->
+
+<section class="some-features">
+ <div class="introduction">
+    <h3>THEME FEATURES</h3>
+    <h5>Some features</h5>
+ </div>
+
+ <div class="container all-info">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col">
+           <img src="images/Icon5.png" alt="">
+        </div>
+        <div class="col paragraf">
+          <h4>CLEAN DESIGN</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorem enim. Sequi, quae.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+           <img src="images/Icon6.png" alt="">
+        </div>
+        <div class="col paragraf">
+          <h4>FREE UPDATE & SUPPORT</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorem enim. Sequi, quae.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col">
+           <img src="images/Icon7.png" alt="">
+        </div>
+        <div class="col paragraf">
+          <h4>LOADED WITH POWER</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorem enim. Sequi, quae.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+           <img src="images/Icon8.png" alt="">
+        </div>
+        <div class="col paragraf">
+          <h4>CHOOSE THE PRODUCT YOU LOVE</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorem enim. Sequi, quae.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col">
+           <img src="images/Icon9.png" alt="">
+        </div>
+        <div class="col paragraf">
+          <h4>COMPLETELY CUSTOMIZABLE</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorem enim. Sequi, quae.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+           <img src="images/Icon10.png" alt="">
+        </div>
+        <div class="col paragraf">
+          <h4>STYLE FOR EVERY BUDGET</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorem enim. Sequi, quae.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+ </div>
+
+</section>
+
+<!--Seksioni i 5-->
+
+<section class="subscribe">
+  <div class="get-news">
+    <div class="button-text">
+      <img class="post" src="images/Icon Mail.png" alt="">
+      <h4>SUBSCRIBE</h4>
+        <h5>Get the latest news & updates from Zorka</h5>
+        <div class="btn-sub">
+          <button class="btn-sub1">YOUR EMAIL ADDRESS</button>
+          <button class="btn-sub2">SUBSCRIBE</button>
+        </div>
+    </div>
+    
+  </div>
+  <div class="brand-logo">
+    <img src="images/Brand Logo.png" alt="">
+  </div>
+  <hr>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Slide images-->
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+
+    var j;
+    var z = document.getElementsByClassName("mySlide")
+    if (n > z.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = z.length} ;
+    for (j = 0; j < z.length; j++) {
+      z[j].style.display = "none"; 
+    }
+    z[slideIndex-1].style.display = "block"; 
+  }
+  </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>                                                                                                                                                                                                            

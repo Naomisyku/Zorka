@@ -243,11 +243,6 @@ body{
     font-size: 1rem;
 }
 
-/* .description-price{
-    display: flex;
-    flex-direction: column;
-} */
-
 .description-price h5{
     font-family: Montserrat;
     font-size: 0.8rem;
@@ -353,11 +348,9 @@ body{
     color: #fff;
 }
 
-/* .text1{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-} */
+.info1{
+    margin-right: 10%;
+}
 
 .info1 h4{
     font-family: Montserrat;
@@ -368,6 +361,10 @@ body{
     font-family: Montserrat;
     font-size: 0.8rem;
     color: rgba(215, 93, 93, 0.866) ;
+}
+
+.info2{
+    margin-right: 10%;
 }
 
 .info2 h4{
@@ -381,6 +378,10 @@ body{
     color: rgba(215, 93, 93, 0.866) ;
 }
 
+.info3{
+    margin-right: 10%;
+}
+
 .info3 h4{
     font-family: Montserrat;
     font-size: 1rem;
@@ -390,6 +391,10 @@ body{
     font-family: Montserrat;
     font-size: 0.8rem;
     color: rgba(215, 93, 93, 0.866) ;
+}
+
+.info4{
+    margin-right: 10%;
 }
 
 .info4 h4{
@@ -614,21 +619,200 @@ footer{
 }
 
 
+/*ndryshimet per te bere website responsive*/
+
+@media only screen and (max-width: 1200px) {
+       /*Nuk ka nevoj per ndryshime*/
+}
 
 
+@media only screen and (max-width: 992px) {
+
+/*Stilizimet e seksionit 1*/
+
+.mySlides{
+    width: 88%;
+    height: 90%;
+}
+
+.mySlide{
+    width: 88%;
+    height: 90%;
+}
+
+.main-title{
+    position: absolute;
+    left: 12%;
+    top: 30%;
+}
+
+.main-title h1{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+
+.main-title2{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.main-title2 h1{
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+
+.display-left{
+    margin-top: 40%;
+}
+
+.display-right{
+    margin-top: 40%;
+}
+
+/*Stilizimet e seksionit 2*/
+
+.img-section2{
+    width: 70%;
+}
+
+.add-cart{
+    padding: 5px 9px;
+    font-size: 10px;
+}
+
+.add-cart1{
+    padding: 5px 9px;
+    font-size: 10px;
+    margin-bottom: 2%;
+}
+
+.btn-load1{
+    padding: 6px 12px;
+}
+
+/*Stilizimet e seksionit 3*/
+
+.new{
+    font-size: 1.1rem;
+}
+
+.info1 h4{
+     font-size: 0.8rem;
+}
+
+.info1 h5{
+    font-size: 0.7rem;
+}
+
+.info2 h4{
+    font-size: 0.8rem;
+}
+
+.info2 h5{
+   font-size: 0.7rem;
+}
+
+.info3 h4{
+    font-size: 0.8rem;
+}
+
+.info3 h5{
+   font-size: 0.7rem;
+}
+
+.info4 h4{
+    font-size: 0.8rem;
+}
+
+.info4 h5{
+   font-size: 0.7rem;
+}
+
+.testimonial h4{
+    font-size: 1.1rem;
+}
+
+.testimonial h5{
+    font-size: 0.8rem;
+}
+
+.testimonial h6{
+    font-size: 0.7rem;
+}
+
+.testimonial p{
+    font-size: 0.9rem;
+}
+
+.anna{
+    border-radius: 50%;
+}
+
+/*Stilizimete e seksionit 5*/
+
+.image-brand{
+    height: 3%;
+    width: 58%;
+}
+
+.paragraf1 h4{
+     font-size: 0.8rem;
+}
+
+.paragraf1 h5{
+    font-size: 0.8rem;
+}
+
+.time{
+    width: 10%;
+    height: 35%;
+}
+
+.medal{
+    width: 10%;
+    height: 40%;
+}
+
+.globe{
+    width: 10%;
+    height: 40%;
+}
+
+/*Stilizimet e footerit*/
+
+.the-footer-info h4{
+    font-size: 1rem;
+}
+
+.the-footer-info h5{
+    font-size: 0.6rem;
+}
 
 
+.rights h5{
+    font-size: 0.6rem;
+}
+
+}
 
 
+@media only screen and (max-width: 768px) {
+
+     
+
+}
 
 
+@media only screen and (max-width: 600px) {
+
+}
 
 
-
-
-
-
-
+@media only screen and (max-width: 480px) {
+    
+}
 
 
 

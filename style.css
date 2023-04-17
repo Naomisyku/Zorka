@@ -823,13 +823,135 @@ footer{
 
 @media only screen and (max-width: 768px) {
 
-     
+/*Stilizimet e headerit*/
+
+.opsions{
+    padding-right: 13%;
+}
+
+ /*Stilizimete e seksionit 1*/
+ 
+ .main-title{
+    position: absolute;
+    left: 12%;
+    top: 30%;
+}
+
+.main-title h1{
+    font-size: 1rem;
+}
+
+.main-title2{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.main-title2 h1{
+    font-family: Montserrat;
+    font-size: 1rem;
+    text-shadow: white;
+}
+
+.main-title h3{
+    font-size: 1rem;
+}
+
+.shipping h4{
+    font-size: 0.8rem;
+    padding-top: 7%;
+}
+
+.cart{
+    height: 50%;
+}
+
+.giveaway h4{
+    font-size: 0.8rem;
+    padding-top: 7%;
+}
+
+.gift{
+    height: 50%;
+}
+
+.sale h4{
+    font-size: 0.8rem;
+}
+
+.diamond{
+    height: 50%;
+}
+
+/*Stilizimet e seksionit 2*/
+
+.btn-load1{
+    padding: 5px 10px;
+    font-size: 0.7rem;
+}
+
+
+/*Stilizimete seksionit 4*/
+
+.icon-four{
+    height: 20%;
+}
+
+.paragraf h4{
+    font-size: 0.8rem;
+}
+
+/*Stilizimet e seksioit 5*/
+
+.paragraf1 h4{
+    font-size: 0.7rem;
+}
+
+.paragraf1 h5{
+   font-size: 0.6rem;
+}
+
+.time{
+   width: 10%;
+   height: 35%;
+}
+
+.medal{
+   width: 10%;
+   height: 40%;
+}
+
+.globe{
+   width: 10%;
+   height: 40%;
+}
+
+/*Stilizimet e footerit*/
+
+.the-footer-info h4{
+    font-size: 0.8rem;
+}
+
+.the-footer-info h5{
+    font-size: 0.6rem;
+}
+
+
+.rights h5{
+    font-size: 0.5rem;
+}
 
 }
 
 
 @media only screen and (max-width: 600px) {
 
+
+
+
+
+
+    
 }
 
 

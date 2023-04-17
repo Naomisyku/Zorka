@@ -630,6 +630,30 @@ footer{
 
 /*Stilizimet e seksionit 1*/
 
+.shipping h4{
+    font-size: 0.8rem;
+}
+
+.cart{
+    height: 80%;
+}
+
+.giveaway h4{
+    font-size: 0.8rem;
+}
+
+.gift{
+    height: 80%;
+}
+
+.sale h4{
+    font-size: 0.8rem;
+}
+
+.diamond{
+    height: 80%;
+}
+
 .mySlides{
     width: 88%;
     height: 90%;
@@ -796,7 +820,6 @@ footer{
 }
 
 }
-
 
 @media only screen and (max-width: 768px) {
 

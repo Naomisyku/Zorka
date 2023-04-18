@@ -226,6 +226,10 @@ body{
 
 /*Stilizimet e seksionit 2*/
 
+.cont-one{
+    margin-bottom: 2%;
+}
+
 .trend-title{
     display: flex;
     flex-direction: column;
@@ -460,7 +464,15 @@ body{
     border-radius: 50%;
 }
 
+.cont-three{
+    margin-top: 2%;
+}
+
 /*Stilizimet e seksionit 4*/
+
+.some-features{
+    margin: 2%;
+}
 
 .introduction{
     display: flex;
@@ -480,7 +492,7 @@ body{
 }
 
 .all-info{
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .paragraf{
@@ -574,6 +586,10 @@ body{
     font-family: Merriweather;
     font-style: italic;
     font-size: 0.9rem;
+}
+
+.cont-info{
+    margin: 3%;
 }
 
 /*Stilizimet e footerit*/
@@ -1103,7 +1119,7 @@ footer{
 
 /*Stilizimet e seksionit 2*/
 
-.add-cart{
+/* .add-cart{
     font-size: 0.4rem;
 }
 
@@ -1123,7 +1139,7 @@ footer{
 
 .ikonat{
     padding: 1px;
-}
+} */
 
 
 /*Stilizimet e seksionit 3*/
@@ -1140,8 +1156,6 @@ footer{
 
 
 }
-
-
 
 
 

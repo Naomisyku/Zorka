@@ -826,17 +826,10 @@ footer{
 /*Stilizimet e headerit*/
 
 .opsions{
-    padding-right: 13%;
-}
+    padding-right: 13%;}
 
  /*Stilizimete e seksionit 1*/
  
- .main-title{
-    position: absolute;
-    left: 12%;
-    top: 30%;
-}
-
 .main-title h1{
     font-size: 1rem;
 }
@@ -946,17 +939,206 @@ footer{
 
 @media only screen and (max-width: 600px) {
 
+/*Stilizimet e seksionit 1*/
 
+.main-title h1{
+    font-size: 0.8rem;
+}
 
+.main-title2 h1{
+    font-size: 0.8rem;
+    text-shadow: white;
+}
 
+.main-title h3{
+    font-size: 0.8rem;
+}
 
+.main-title{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
 
-    
+.sale h4{
+    padding-top: 7%;
+}
+
+.diamond{
+    height: 40%;
+}
+
+.gift{
+    height: 40%;
+}
+
+.cart{
+    height: 40%;
+}
+
+/*Stilizimet e seksonit 2*/
+
+.description-price h5{
+    font-size: 0.6rem;
+}
+
+.add-cart{
+    font-size: 0.5rem;
+}
+
+.btn-icons li a {
+    height: 20px;
+    width: 20px;
+}
+
+.add-cart{
+  padding: 2px 2px;
+}
+
+.add-cart1{
+    padding: 2px 2px;
+    font-size: 0.5rem;
+}
+
+.ikonat{
+    padding: 1px;
+}
+
+/*Stilizimet e seksionit 3*/
+
+.three-icons4{
+    justify-content: space-evenly;
+}
+
+.collection{
+    height: 70%;
+}
+
+.info1{
+    margin-left: -20%;
+}
+
+.info2{
+    margin-left: -20%;
+}
+
+.info3{
+    margin-left: -20%;
+}
+
+.info4{
+    margin-left: -20%;
+}
+
+.new{
+    font-size: 0.9rem;
+}
+
+.testimonial h4{
+    font-size: 0.9rem;
+}
+
+/*Stilizimet e seksionit 4*/
+
+.icon-four{
+    height: 40%;
+}
+
+/*Stilizimet e seksionit 5*/
+
+.photo-info{
+    border: none;
+    margin: 1%;
+}
+
+.time{
+    width: 10%;
+    height: 50%;
+ }
+ 
+ .medal{
+    width: 10%;
+    height: 50%;
+ }
+ 
+ .globe{
+    width: 10%;
+    height: 50%;
+ }
+
+/*Stilizimet e footerit*/
+
+.the-footer-info h5{
+    font-size: 0.5rem;
+}    
 }
 
 
 @media only screen and (max-width: 480px) {
+
+/*Stilizimet e headerit*/
+
+.nav-link{
+    font-size: 0.7rem;
+}
+ 
+/*Stilizimet e seksionit 1*/    
     
+.main-title h1{
+    font-size: 0.7rem;
+}
+
+.main-title2 h1{
+    font-size: 0.7rem;
+    text-shadow: white;
+}
+
+.main-title2 h3{
+    font-size: 0.7rem;
+}
+
+.main-title h3{
+    font-size: 0.7rem;
+}
+
+/*Stilizimet e seksionit 2*/
+
+.add-cart{
+    font-size: 0.4rem;
+}
+
+.btn-icons li a {
+    height: 20px;
+    width: 20px;
+}
+
+.add-cart{
+  padding: 1px 0px;
+}
+
+.add-cart1{
+    padding: 1px 0px;
+    font-size: 0.4rem;
+}
+
+.ikonat{
+    padding: 1px;
+}
+
+
+/*Stilizimet e seksionit 3*/
+
+.three-icons4{
+    justify-content: space-evenly;
+}
+
+/*Stilizimet e footerit*/
+
+.footer-icon{
+    height: 47%;
+}
+
+
 }
 
 
